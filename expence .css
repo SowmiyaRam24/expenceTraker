@@ -1,0 +1,22 @@
+
+
+.box{
+    border:2px solid rgb(104, 185, 185);
+    background-color: rgb(58, 58, 160);
+    font-size: medium;
+    min-height: 50px;
+    min-width: 100px;
+    text-align: center;
+    
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   /* margin-right: 67px;*/
+    margin-top: 70000px;
+}
+ /*hr{
+    border-top: 500px solid black;
+    width: 42%;
+    margin-right: 50%;
+    margin-left: 50%;
+}*/
