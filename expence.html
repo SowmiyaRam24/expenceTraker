@@ -1,0 +1,71 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storeage</title>
+    <link rel="stylesheet" href="expence .css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <title>local storeage</title>
+</head>
+<body>
+    <div 
+     class="bg-image" style="background-image: url('./moive.jpg');
+     background-repeat: no-repeat;   background-size: cover;position: relative;height:100vh;border-top :5px solid black;border-left: 5px solid;border-right: 5px solid;border-bottom: 5px solid;">
+     <div class="container" class="box">
+      
+      <h1 style="justify-content: center;align-items: center;color: rgb(79, 7, 7);margin-left:30px;font-size:25px;margin-top :20px;padding-top: 30px;">
+        <i>🎬 MOVIE <span style="color:rgb(9, 92, 64);  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+          ">TICKET 
+        </span> SELLER APP</i>
+       </h1>
+     </div>
+     <hr style="border-top:5px solid black;width: 75%;margin-left: 49px;margin-right:80%;">
+     <div class="container" style="margin-right: 20px;">
+      <div class="form"  id="addFrom">
+        <from  id="addFrom" onsubmit="saveToLocalStorage(event)">
+        <div class="row">
+          <div class="col">
+            <label ><i>Choose Expenceamount:</i></label>
+            <input type="number" name="amount" id="items"><br>
+            </div>
+         </div>
+         <div class="row">
+          <div class="col">
+          <label><i>Choose Description:</i></label> 
+          <input type="text" name="Description" style="margin-left: 30px;" id="items1">
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="dropd">
+                <label><i>Choose a category:</i></label>
+                <input type="text" name="category" style="margin-left: 30px;" id="items2">
+            <div class="row">
+            <div class="col ">
+              
+              <button type="submit"  value="submit" class="btn btn-dark" style="border-radius: 97px;background-color: black;color: aliceblue;">submit</button>
+            </div>
+          </form>
+          <div  >
+          <ul id="adding">
+            
+          </ul>
+          </div>
+            
+
+
+            
+
+      </div>
+     
+        </div>
+
+       </div>
+  
+  
+    <script src="expence.js"></script>
+</body>
+</html>
